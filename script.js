@@ -1,29 +1,29 @@
-//your code here!
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Infinite Scroll Example</title>
-  <style>
-    #container {
-      width: 80%;
-      margin: auto;
-    }
+// //your code here!
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//   <meta charset="UTF-8">
+//   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//   <title>Infinite Scroll Example</title>
+//   <style>
+//     #container {
+//       width: 80%;
+//       margin: auto;
+//     }
 
-    .item {
-      border: 1px solid #ccc;
-      margin: 10px;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
+//     .item {
+//       border: 1px solid #ccc;
+//       margin: 10px;
+//       padding: 20px;
+//       text-align: center;
+//     }
+//   </style>
+// </head>
+// <body>
 
-<div id="container"></div>
+// <div id="container"></div>
 
-<script>
+// <script>
   const container = document.getElementById('container');
   let page = 1;
 
@@ -72,8 +72,8 @@
       loadMoreData(); // Load 2 more items automatically
     }
   });
-</script>
+// </script>
 
-</body>
-</html>
+// </body>
+// </html>
 
